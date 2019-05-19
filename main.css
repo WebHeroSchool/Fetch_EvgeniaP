@@ -1,0 +1,26 @@
+.title {
+	font: bold 30px Arial;
+	text-align: center;
+}
+
+.input {
+	text-align: center;
+}
+
+.name {
+	font: bold 25px Arial;
+	color: black;
+	text-decoration: none;
+}
+
+.bio {
+	font: 15px Arial;
+}
+
+.avatar {
+	display: none;
+}
+
+.avatar_active {
+	display: block;
+}
