@@ -2,7 +2,8 @@ const body = document.body;
 const name = document.getElementById('name');
 const avatar = document.getElementById('avatar');
 const bio = document.getElementById('bio');
-const user = window.location.search.replace('?username=', '');
+const urlParams = new URLSearchParams(window.location.search);
+const user = urlParams.get('username');
 const url = 'https://api.github.com/users/' + user;
 fetch(url)
 	.then (res => res.json())
